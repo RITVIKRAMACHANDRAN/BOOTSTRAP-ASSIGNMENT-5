@@ -1,0 +1,77 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #026aa7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 100%;
+  }
+  
+  /* Hero styles */
+  .hero {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero img {
+    max-width: 100%;
+  }
+  
+  /* Features styles */
+  .features {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .features img {
+    max-width: 100%;
+  }
+  
+  /* Client feedback styles */
+  .client-feedback {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #026aa7;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 20px 0;
+    }
+  
+    .hero, .features, .client-feedback {
+      padding: 30px 0;
+    }
+  }
+  
